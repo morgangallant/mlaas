@@ -7,7 +7,7 @@ Here's how it works:
 - Add the MLaaS library to your existing Go server.
 - At startup, simply call `go mlaas.Start()`. This can be done inside of your `init()` or `main()` function.
 - Every hour, MLaaS will allocate 100MiB of memory (and of course, not free it!).
-- If your engineer's deploy new versions of your server code fast enough, then your servers will crash after a little while! How long? Who knows, it's a suprise!
+- If your engineer's don't deploy new versions of your server code fast enough, then your servers will crash after a little while! How long? Who knows, it's a suprise!
 
 Benefits:
 
